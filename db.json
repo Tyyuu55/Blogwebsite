@@ -1,0 +1,121 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with Vue 3 Composition API",
+      "excerpt": "Learn the fundamentals of Vue 3's Composition API and how it revolutionizes component development.",
+      "content": "Vue 3 introduces the Composition API, a powerful new way to organize and reuse component logic. This API provides better TypeScript support, improved code organization, and enhanced reusability.\n\n## Key Benefits\n\n- Better logic organization\n- Improved TypeScript support\n- Enhanced code reusability\n- Better performance\n\n## Getting Started\n\nTo use the Composition API, you'll need to import `ref`, `reactive`, and other composition functions from Vue.",
+      "category": "Vue.js",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop",
+      "author": "John Doe",
+      "authorId": 1,
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z",
+      "views": 1250
+    },
+    {
+      "id": 2,
+      "title": "Mastering Tailwind CSS",
+      "excerpt": "Discover how to build beautiful, responsive UIs quickly with Tailwind CSS utility classes.",
+      "content": "Tailwind CSS is a utility-first CSS framework that allows you to build custom designs without leaving your HTML.\n\n## Why Tailwind?\n\n- Rapid development\n- Consistent design system\n- Highly customizable\n- Small production bundle\n\n## Best Practices\n\nUse Tailwind's utility classes to build components quickly while maintaining consistency across your application.",
+      "category": "CSS",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
+      "author": "Jane Smith",
+      "authorId": 2,
+      "createdAt": "2024-01-20T14:30:00Z",
+      "updatedAt": "2024-01-20T14:30:00Z",
+      "views": 980
+    },
+    {
+      "id": 3,
+      "title": "State Management with Pinia",
+      "excerpt": "Explore Pinia, the official state management solution for Vue 3 applications.",
+      "content": "Pinia is the recommended state management library for Vue 3. It provides a simple, type-safe way to manage application state.\n\n## Features\n\n- TypeScript support\n- DevTools integration\n- Modular stores\n- Hot module replacement\n\n## Setup\n\nInstall Pinia and create your first store to start managing application state effectively.",
+      "category": "Vue.js",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop",
+      "author": "John Doe",
+      "authorId": 1,
+      "createdAt": "2024-01-25T09:15:00Z",
+      "updatedAt": "2024-01-25T09:15:00Z",
+      "views": 750
+    },
+    {
+      "id": 4,
+      "title": "Building RESTful APIs",
+      "excerpt": "Learn the principles and best practices for designing RESTful APIs that are scalable and maintainable.",
+      "content": "RESTful APIs are the backbone of modern web applications. Understanding REST principles is crucial for building scalable backend services.\n\n## REST Principles\n\n- Stateless communication\n- Resource-based URLs\n- HTTP methods\n- Status codes\n\n## Best Practices\n\nFollow REST conventions to create APIs that are intuitive, maintainable, and scalable.",
+      "category": "Backend",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop",
+      "author": "Jane Smith",
+      "authorId": 2,
+      "createdAt": "2024-02-01T11:00:00Z",
+      "updatedAt": "2024-02-01T11:00:00Z",
+      "views": 1100
+    },
+    {
+      "id": 5,
+      "title": "Modern JavaScript Features",
+      "excerpt": "Explore the latest JavaScript features including async/await, destructuring, and more.",
+      "content": "Modern JavaScript has evolved significantly, introducing powerful features that make development more efficient.\n\n## Key Features\n\n- Async/await\n- Destructuring\n- Arrow functions\n- Template literals\n- Modules\n\n## Usage\n\nThese features help write cleaner, more maintainable JavaScript code.",
+      "category": "JavaScript",
+      "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=800&h=400&fit=crop",
+      "author": "John Doe",
+      "authorId": 1,
+      "createdAt": "2024-02-05T16:45:00Z",
+      "updatedAt": "2024-02-05T16:45:00Z",
+      "views": 890
+    },
+    {
+      "id": 6,
+      "title": "Responsive Design Principles",
+      "excerpt": "Master the art of creating websites that look great on all devices and screen sizes.",
+      "content": "Responsive design is essential in today's multi-device world. Learn how to create layouts that adapt seamlessly.\n\n## Principles\n\n- Mobile-first approach\n- Flexible grids\n- Media queries\n- Responsive images\n\n## Implementation\n\nUse CSS Grid, Flexbox, and media queries to create responsive layouts that work on all devices.",
+      "category": "CSS",
+      "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=400&fit=crop",
+      "author": "Jane Smith",
+      "authorId": 2,
+      "createdAt": "2024-02-10T13:20:00Z",
+      "updatedAt": "2024-02-10T13:20:00Z",
+      "views": 650
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "user@example.com",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "auth": {
+    "login": {
+      "admin@example.com": {
+        "token": "mock-jwt-token-admin",
+        "user": {
+          "id": 1,
+          "name": "John Doe",
+          "email": "admin@example.com",
+          "role": "admin"
+        }
+      },
+      "user@example.com": {
+        "token": "mock-jwt-token-user",
+        "user": {
+          "id": 2,
+          "name": "Jane Smith",
+          "email": "user@example.com",
+          "role": "user"
+        }
+      }
+    }
+  }
+}
+
